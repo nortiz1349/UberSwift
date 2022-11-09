@@ -15,6 +15,7 @@
 		68955087291B8F2D0050636E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68955086291B8F2D0050636E /* LocationManager.swift */; };
 		68CED33A291BCBBD00A0E86D /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CED339291BCBBD00A0E86D /* LocationSearchView.swift */; };
 		68CED33C291BCE3700A0E86D /* LocationSearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CED33B291BCE3700A0E86D /* LocationSearchResultCell.swift */; };
+		68CED33E291BE5D400A0E86D /* LocationSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CED33D291BE5D400A0E86D /* LocationSearchViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		68955086291B8F2D0050636E /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		68CED339291BCBBD00A0E86D /* LocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
 		68CED33B291BCE3700A0E86D /* LocationSearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchResultCell.swift; sourceTree = "<group>"; };
+		68CED33D291BE5D400A0E86D /* LocationSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 		6895508A291BC7550050636E /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				68CED33D291BE5D400A0E86D /* LocationSearchViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				68955087291B8F2D0050636E /* LocationManager.swift in Sources */,
 				6895506A291B8B8E0050636E /* UberSwiftApp.swift in Sources */,
 				68955085291B8DBC0050636E /* UberMapViewRepresentable.swift in Sources */,
+				68CED33E291BE5D400A0E86D /* LocationSearchViewModel.swift in Sources */,
 				68955083291B8C260050636E /* HomeView.swift in Sources */,
 				68CED33C291BCE3700A0E86D /* LocationSearchResultCell.swift in Sources */,
 			);
